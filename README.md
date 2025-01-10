@@ -22,9 +22,10 @@
 1. 安装依赖+clone：
    在conda环境中执行
    conda install matplotlib pytorch torchvision
+   克隆项目
    gic clone https://github.com/zephyr4123/Neural-Net-final-work
 
-2. 设置路径：
+3. 设置路径：
    数据集下载路径可在源代码如下位置调整。存放在根目录下的data文件夹下，按需调整
    datasets.MNIST(root='./data', train=True, transform=transform, download=True) 
    生成图像保存路径可在源代码如下位置调整。存放在根目录下的generated_images文件夹下，按需调整
